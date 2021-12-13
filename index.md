@@ -19,7 +19,7 @@ const int minutesPerHour = 60;
 const int* K; //K is a pointer that can point to a const int type variable
 char const* L; //L is a pointer to an char which is of const type
 ```
-4. To make a constant pointer(put the `const` keyword to the right of the `*`) so we cannot change the pointer but can change the value that it points to.
+4. To make a constant pointer (put the `const` keyword to the right of the `*`) so we cannot change the pointer but can change the value that it points to.
 - Code ex:
 ```
   int x = 1;
@@ -30,12 +30,12 @@ char const* L; //L is a pointer to an char which is of const type
 ```
   const int* const x;
  ```
-6.To make constant Function Arguments
+6. To make constant Function Arguments
 -Code ex:
 ```
   void constantFunction (const int i)
 {
-    i++;     error
+    i++;    // error
 }
  ```
 ## Usages of Ampersand operator : 
@@ -49,7 +49,7 @@ char const* L; //L is a pointer to an char which is of const type
 - Code ex:
 ```
   string name = "Omar";  
-  string &name = name;    // Outputs the memory location of the name variable
+  cout << &name ;    // Outputs the memory location of the name variable
  ```
 3. To declare a pointer
 - Code ex:
@@ -57,8 +57,7 @@ char const* L; //L is a pointer to an char which is of const type
   string name = "Omar";
   string* ptr = &name;   // A pointer variable, with the name ptr, that stores the address of name 
  ```
-4. Use `&&` as logical operator(AND):returns true if both operands are true and returns false otherwise
-- ![Logical Operators](https://www.javascripttutorial.net/wp-content/uploads/2016/11/JavaScript-Logical-Operator.png)
+4. Use `&&` as logical operator (AND) :returns true if both operands are true and returns false otherwise
 - Code ex:
 ```
  int x = 6;
@@ -66,3 +65,4 @@ char const* L; //L is a pointer to an char which is of const type
     if((x > 0) && (y > 0))
     cout << "Both Numbers are postive";
 ```
+- ![Logical Operators](https://www.javascripttutorial.net/wp-content/uploads/2016/11/JavaScript-Logical-Operator.png)
