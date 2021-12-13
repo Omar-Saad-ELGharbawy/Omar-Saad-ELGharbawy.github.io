@@ -1,7 +1,7 @@
 # Const and Ampersand (&) Report 
 ## Usages of Const :
 ![const keyword](https://media.geeksforgeeks.org/wp-content/cdn-uploads/Constants-in-C.png)
-1. When you don't want anyone to change or override values of a varibale:use const keyword in declaring this variable as constant(Read-only and unchangeable) Variable
+1. When you don't want anyone to change or override values of a variable : Use `const` keyword in declaring this variable as constant(Read-only and unchangeable) Variable
 - Code ex:
 ```
 const int constNum = 15;  // constNum will always be 15
@@ -19,7 +19,7 @@ const int minutesPerHour = 60;
 const int* K; //K is a pointer that can point to a const int type variable
 char const* L; //L is a pointer to an char which is of const type
 ```
-4. To make a constant pointer(put the const keyword to the right of the *) so we cannot change the pointer but can change the value that it points to.
+4. To make a constant pointer(put the `const` keyword to the right of the `*`) so we cannot change the pointer but can change the value that it points to.
 - Code ex:
 ```
   int x = 1;
@@ -39,7 +39,7 @@ char const* L; //L is a pointer to an char which is of const type
 }
  ```
 ## Usages of Ampersand operator : 
-1. Creating refrence variables
+1. Creating a refrence variables by the `&` operator
 - Code ex:
 ```
   string name = "Omar";  // name variable
@@ -57,7 +57,7 @@ char const* L; //L is a pointer to an char which is of const type
   string name = "Omar";
   string* ptr = &name;   // A pointer variable, with the name ptr, that stores the address of name 
  ```
-4. Use && as logical operator(AND):returns true if both operands are true and returns false otherwise
+4. Use `&&` as logical operator(AND):returns true if both operands are true and returns false otherwise
 - ![Logical Operators](https://www.javascripttutorial.net/wp-content/uploads/2016/11/JavaScript-Logical-Operator.png)
 - Code ex:
 ```
