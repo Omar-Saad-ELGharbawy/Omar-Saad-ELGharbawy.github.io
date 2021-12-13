@@ -13,13 +13,13 @@ constNum = 10;  // error: assignment of read-only variable 'constNum'
 const float PI = 3.14;
 const int minutesPerHour = 60;
 ```
-3. Use pointer to point to a const variable
+3. Use **pointer** to point to a const variable
 - Code ex:
 ```
 const int* K; //K is a pointer that can point to a const int type variable
 char const* L; //L is a pointer to an char which is of const type
 ```
-4. To make a constant pointer (put the `const` keyword to the right of the `*`) so we cannot change the pointer but can change the value that it points to.
+4. To make a ***constant pointer*** (put the `const` keyword to the right of the `*`) so we cannot change the pointer but can change the value that it points to.
 - Code ex:
 ```
   int x = 1;
@@ -31,7 +31,7 @@ char const* L; //L is a pointer to an char which is of const type
   const int* const x;
  ```
 6. To make constant Function Arguments
--Code ex:
+- Code ex:
 ```
   void constantFunction (const int i)
 {
@@ -39,25 +39,25 @@ char const* L; //L is a pointer to an char which is of const type
 }
  ```
 ## Usages of Ampersand operator :
-1-Creating a refrence variables by the `&` operator
+1-Creating a **refrence variables** by the `&` operator
 - Code ex:
 ```
   string name = "Omar";  // name variable
   string &nameRefrence = name;    // reference to name
  ```
-2-To get the memory address of a variable
+2-To get the **memory address** of a variable
 - Code ex:
 ```
   string name = "Omar";  
   cout << &name ;    // Outputs the memory location of the name variable
  ```
-3-To declare a pointer
+3-To declare a **pointer**
 - Code ex:
 ```
   string name = "Omar";
   string* ptr = &name;   // A pointer variable, with the name ptr, that stores the address of name 
  ```
-4-Use `&&` as logical operator (AND) :returns true if both operands are true and returns false otherwise
+4-Use `&&` as ***logical operator*** (**AND**) :returns true if both operands are true and returns false otherwise
 - Code ex:
 ```
  int x = 6;
